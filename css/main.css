@@ -1,0 +1,111 @@
+body {
+        background: radial-gradient(
+          circle at 10% 20%,
+          rgb(85, 149, 27) 0.1%,
+          rgb(183, 219, 87) 90%
+        );
+        color: #181818;
+      }
+      .container {
+        max-width: 800px;
+        padding: 20px;
+        display: block;
+        margin: 50px auto;
+        border-radius: 10px;
+        background-color: ghostwhite;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        border-radius: 3px;
+        border: 1px solid #181818;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        color: ghostwhite;
+        background: #181818;
+        cursor: pointer;
+      }
+      .themeButton {
+        display: block;
+        margin: 0 auto;
+        background: #181818;
+        color: ghostwhite;
+        border-radius: 3px;
+        border: 1px solid #181818;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+        padding: 8px;
+        font-size: 10px;
+        font-weight: bold;
+        transition: all 200ms ease-in-out;
+      }
+      .themeButton:hover {
+        background: ghostwhite;
+        color: #181818;
+      }
+      .darkBackground {
+        background: radial-gradient(
+          circle at 24.1% 68.8%,
+          rgb(50, 50, 50) 0%,
+          rgb(0, 0, 0) 99.4%
+        );
+        color: ghostwhite;
+      }
+      .darkBackground .container {
+        background: linear-gradient(60deg, #29323c 0%, #485563 100%);
+        color: ghostwhite;
+      }
+      h1,
+      h2 {
+        text-align: center;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      img {
+        max-width: 100%;
+        /*width: 500px;*/
+      }
+      .tennis-cover {
+        border-radius: 6px;
+        transition: all 150ms ease-in-out;
+        display: block;
+        margin: 0 auto 40px auto;
+      }
+      .tennis-cover:hover {
+        filter: contrast(50%);
+        transform: scale(1.2);
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+      }
+      .grid img {
+        width: 300px;
+        border-radius: 6px;
+        transition: all150ms ease-in-out;
+      }
+      .grid img:hover {
+        transform: scale(1.2);
+      }
+      p {
+        font-size: 20px;
+        line-height: 25px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      a {
+        font-size: 20px;
+        font-weight: bold;
+        color: #00cc66;
+      }
+      footer {
+        text-align: center;
+        margin: 20px;
+        font-size: 18px;
+        font-weight: bold;
+      }

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My hobby</title>
+    <link href="css/main.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="container">
+      <button class="themeButton">Change Theme</button>
+      <h1>Tennis🎾</h1>
+
+      <h2>It's all about Tennis😜</h2>
+
+      <img
+        class="tennis-cover"
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/913/original/tennis.jpg?1744482531"
+        alt="tennis"
+      />
+
+      <div class="grid">
+        <img
+          class="tennis-balls"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/912/original/balls.jpg?1744482522"
+          alt="tennis balls"
+          height="256px"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/916/original/match.jpg?1744482575"
+          alt="tennis match"
+          height="256px"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/915/original/me.jpg?1744482560"
+          alt="tennisball and racket"
+          height="256px"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/914/original/serena.jpg?1744482542"
+          alt="serena williams"
+          height="256px"
+        />
+      </div>
+
+      <p>
+        Tennis, game in which two opposing players (singles) or pairs of players
+        (doubles) use tautly strung rackets to hit a ball of specified size,
+        weight, and bounce over a net on a rectangular court. Points are awarded
+        to a player or team whenever the opponent fails to correctly return the
+        ball within the prescribed dimensions of the court. Organized tennis is
+        played according to rules sanctioned by the International Tennis
+        Federation (ITF), the world governing body of the sport.
+      </p>
+
+      <p>
+        Tennis originally was known as lawn tennis, and formally still is in
+        Britain, because it was played on grass courts by Victorian gentlemen
+        and ladies. It is now played on a variety of surfaces. The origins of
+        the game can be traced to a 12th–13th-century French handball game
+        called jeu de paume (“game of the palm”), from which was derived a
+        complex indoor racket-and-ball game: real tennis. This ancient game is
+        still played to a limited degree and is usually called real tennis in
+        Britain, court tennis in the United States, and royal tennis in
+        Australia.
+      </p>
+      <a href="https://www.britannica.com/sports/tennis" target="_blank"
+        >More about Tennis</a
+      >
+
+      <div class="learn"><button>Learn to Play</button></div>
+    </div>
+
+    <footer>Coded by Lindo Sewela👩🏽‍💻</footer>
+
+    <script>
+      function darkTheme() {
+        let body = document.querySelector("body");
+
+        if (body.classList.contains("darkBackground")) {
+          body.classList.remove("darkBackground");
+        } else {
+          body.classList.add("darkBackground");
+        }
+      }
+
+      let themeButton = document.querySelector(".themeButton");
+      themeButton.addEventListener("click", darkTheme);
+
+      function learn() {
+        let age = prompt("How old are you? ");
+        let email = prompt("Enter your email");
+
+        if (age >= 15) {
+          alert("We'll send further details, Thank You😊");
+        } else {
+          alert("Sorry no younger than 15 can participate🥺");
+        }
+      }
+
+      let learnButton = document.querySelector(".learn");
+      learnButton.addEventListener("click", learn);
+    </script>
+  </body>
+</html>
