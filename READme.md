@@ -68,8 +68,8 @@ as its own commit, so the repo history documents the build-up.
 ## Progress
 
 - [x] **Stage 1 — S3**: static site hosting
-- [ ] **Stage 2 — VPC**: custom network for the backend
-- [ ] **Stage 3 — EC2**: backend server inside the VPC
+- [x] **Stage 2 — VPC**: custom network for the backend
+- [x] **Stage 3 — EC2**: backend server inside the VPC
 - [ ] **Stage 4 — RDS**: database inside the VPC
 - [ ] **Stage 5 — IAM**: least-privilege roles/policies
 - [ ] **Stage 6 — Lambda**: serverless function called from the frontend
