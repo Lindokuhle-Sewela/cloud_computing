@@ -70,7 +70,7 @@ as its own commit, so the repo history documents the build-up.
 - [x] **Stage 1 — S3**: static site hosting
 - [x] **Stage 2 — VPC**: custom network for the backend
 - [x] **Stage 3 — EC2**: backend server inside the VPC
-- [ ] **Stage 4 — RDS**: database inside the VPC
+- [x] **Stage 4 — RDS**: database inside the VPC
 - [ ] **Stage 5 — IAM**: least-privilege roles/policies
 - [ ] **Stage 6 — Lambda**: serverless function called from the frontend
 - [ ] **Stage 7 — CloudWatch**: monitoring/alarms across the stack
@@ -118,3 +118,6 @@ git add .
 git commit -m "Stage 2: VPC network setup"
 git push
 ```
+
+Track Verification:
+WTC-LQX8AVQN
